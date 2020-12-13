@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	grpcTransport "github.com/meateam/grpc-go-conn-pool/transport/grpc"
-	"github.com/meateam/grpc-go-conn-pool/transport/grpc/options"
+	grpcTransport "github.com/meateam/grpc-go-conn-pool/grpc"
+	"github.com/meateam/grpc-go-conn-pool/grpc/options"
 )
 
 // DialGRPC returns a GRPC connection for use communicating with a GRPC servers

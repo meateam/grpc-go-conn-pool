@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/meateam/grpc-go-conn-pool/transport/grpc/types"
+	"github.com/meateam/grpc-go-conn-pool/grpc/types"
 	"google.golang.org/grpc"
 )
 

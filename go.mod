@@ -1,4 +1,4 @@
-module github.com/meateam/grpc-go-conn-pool/transport
+module github.com/meateam/grpc-go-conn-pool
 
 go 1.15
 

@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/meateam/grpc-go-conn-pool/transport/grpc/options"
+	"github.com/meateam/grpc-go-conn-pool/grpc/options"
 	"google.golang.org/grpc"
 
 	// Install grpclb

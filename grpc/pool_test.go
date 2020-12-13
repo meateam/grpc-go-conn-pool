@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/meateam/grpc-go-conn-pool/transport/grpc/options"
+	"github.com/meateam/grpc-go-conn-pool/grpc/options"
 	"google.golang.org/grpc"
 )
 
