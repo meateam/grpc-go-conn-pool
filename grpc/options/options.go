@@ -78,15 +78,14 @@ func (ds *DialSettings) Validate() error {
 }
 
 // WithEndpoint returns a ClientOption that defines the grpc service endpoint
-//
 func WithEndpoint(endpoint string) ClientOption {
-	return withEndpoint(size)
+	return withEndpoint(endpoint)
 }
 
 type withEndpoint string
 
 func (w withEndpoint) Apply(o *DialSettings) {
-	o.Endpoint = w
+	o.Endpoint = string(w)
 }
 
 // GetEndpoint returns the endpoint of a DialSettings.
