@@ -77,6 +77,12 @@ func (ds *DialSettings) Validate() error {
 	return nil
 }
 
+type withEndpoint string
+
+func (w withEndpoint) Apply(o *DialSettings) {
+	o.Endpoint = w
+}
+
 // GetEndpoint returns the endpoint of a DialSettings.
 func GetEndpoint(s *DialSettings) string {
 	return s.Endpoint
